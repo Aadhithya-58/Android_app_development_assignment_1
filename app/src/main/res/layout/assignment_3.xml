@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".com.example.android_app_development_assignment_1.MainActivity">
+
+    <EditText
+        android:id="@+id/usernameEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:inputType="text" />
+
+    <EditText
+        android:id="@+id/passwordEditText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Password"
+        android:inputType="textPassword" />
+
+    <Button
+        android:id="@+id/amazonButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Amazon" />
+
+    <Button
+        android:id="@+id/twitterButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Twitter" />
+
+    <Button
+        android:id="@+id/facebookButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Facebook" />
+
+</LinearLayout>
